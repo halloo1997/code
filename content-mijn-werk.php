@@ -23,7 +23,7 @@
 
             <li class="hex">
                 <div class="hexIn">
-                <a class="hexLink" <?php if($p == 'mijn-fotos')?>" href="/?p=mijn-fotos">Mijn foto's
+                <a class="hexLink" <?php if($p == 'mijn-stages')?>" href="/?p=mijn-stage">Mijn stages
                         <img src="images/Optimized-annie-spratt-608001-unsplash.jpg" alt="" />
                     <h1>Stage</h1>
                     </a>
@@ -32,7 +32,7 @@
 
             <li class="hex">
                 <div class="hexIn">
-                    <a class="hexLink" <?php if($p == 'mijn-fotos')?>" href="/?p=mijn-fotos">Mijn foto's
+                    <a class="hexLink" <?php if($p == 'mijn-restaurant')?>" href="/?p=mijn-restaurant">Mijn restaurant
                     <img src="images/logoinger.jpg" alt="" />
                     <h1>Restaurant INGER</h1>
                     </a>
@@ -41,7 +41,7 @@
 
             <li class="hex">
                 <div class="hexIn">
-                    <a class="hexLink" <?php if($p == 'mijn-fotos')?>" href="/?p=mijn-fotos">Mijn foto's
+                    <a class="hexLink" <?php if($p == 'mijn-school')?>" href="/?p=mijn-school">Mijn school
                     <img src="images/Optimized-christopher-robin-ebbinghaus-681475-unsplash.jpg" alt="" />
                     <h1>Opleiding Media dev.</h1>
                     </a>

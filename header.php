@@ -37,7 +37,7 @@
                       <a class="nav-link text-dark <?php if($p == 'home') echo "font-weight-bold";?>" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-dark <?php if($p == 'mijn-werk') echo "font-weight-bold";?>" href="/?p=mijn-werk">Mijn Werk</a>
+                      <a class="nav-link text-dark <?php if($p == 'mijn-werk') echo "font-weight-bold";?>" href="/?p=mijn-werk">Mijn werk</a>
                     </li>
                       <li class="nav-item">
                       <a class="nav-link text-dark <?php if($p == 'vaardigheden') echo "font-weight-bold";?>" href="/?p=vaardigheden">Vaardigheden</a>
@@ -54,4 +54,5 @@
             </nav>
 
   </header>
+
 <div class="content container"> <!-- Begin content -->

@@ -20,7 +20,7 @@ if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
 /* If URL is not valid set $website to empty */
 if (!preg_match("/^(https?:\/\/+[\w\-]+\.[\w\-]+)/i", $website))
 {
-    $website = 'chariesa.nl';
+    $website = 'http://18665.hosts.ma-cloud.nl';
 }
 
 /* Let's prepare the message for the e-mail */

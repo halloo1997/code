@@ -1,8 +1,27 @@
-<p>Ik ben <strong>Chariesa Roozendaal</strong>, geboren op 18-02-1997 en woon in Uitgeest.
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 
-    In 2017 heb ik de opleiding Allround-DTP’er afgerond en ben ik gestart met de opleiding Mediadeveloper.
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="assets/css/css_content_home.css">
 
-    In mijn vrije tijd ben ik vaak te vinden achter mijn laptop om te programmeren,
-    producten te ontwerpen of foto's te bewerken. Fotograferen vind ik ook erg leuk om te doen
-    vandaar dat er in mijn portfolio ook veel zelfgemaakte foto’s te zien zijn,
-    verder ben ik ook graag met vrienden en altijd in voor leuke dingen.
+<div class="container">
+    <div class="console">
+        <code>
+            <p>Welkom op het portfolio van Chariesa Roozendaal.
+                <br>
+            Hier wil ik jullie graag mijn werk laten zien waar ik trots op ben.
+                <br>
+                Ik heb eerst een opleiding Allround-DTP'er gedaan,
+                <br>
+            bij mijn werk ben ik daar nog wel veel mee bezig.
+                <br>
+                Omdat ik het erg leuk vind om ook te ontwerpen en te fotograferen,
+                <br>
+            heb ik mijn portfolio erg breed gemaakt met heel veel soorten werk.
+            <br>
+                <br>
+            Ik hoop dat ik u genoeg informatie heb gegeven en geniet van het kijken.</p>
+        </code>
+    </div>
+</div>
+
+<script src="script.js"></script>

@@ -12,6 +12,9 @@ include('header.php');
       case 'mijn-fotos':
       include('content-mijn-fotos.php');
       break;
+      case 'mijn-school':
+          include('content-mijn-school.php');
+          break;
     case 'contact':
       include('content-contact.php');
       break;
@@ -24,4 +27,11 @@ include('header.php');
 
   include('footer.php');
 
-?>
+
+
+
+  if(file_exists("pages/$page.php")) {
+      include("pages/$page.php");
+  } else {
+      include('content-404.php');
+}
