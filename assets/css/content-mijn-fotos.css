@@ -29,6 +29,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
     display: block;
     width: 80%;
     max-width: 700px;
+    position: absolute;
+    filter: unset;
+    height: auto;
 }
 
 /* Caption of Modal Image */
@@ -75,8 +78,28 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .close:hover,
 .close:focus {
     color: #bbb;
-    text-decoration: none;
+    text-decoration: #8EB0DA;
     cursor: pointer;
+}
+
+p{
+    margin-left: 10px;
+    color: black;
+    text-align: center;
+}
+
+img{
+    filter: unset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.hexa-container .row{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* 100% Image Width on Smaller Screens */

@@ -1,5 +1,5 @@
 var title = document.querySelector("p");
-var CHAR_TIME = 30;
+var CHAR_TIME = 10;
 
 var text = void 0,index = void 0;
 
@@ -29,6 +29,6 @@ function start() {
     index = 0;
     text = title.textContent.trim();
     title.textContent = "";
-    requestChar(1000);
+    requestChar(100);
 }
 start();
