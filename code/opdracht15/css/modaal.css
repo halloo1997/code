@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding:1em;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom left, #00ffff 0%, #ff6666 100%);
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.tekst img {
+    height: 150px;
+    margin-top: 2em;
+
+}
+
+#achtergrond {
+    background-color: rgba(0,0,0,0.5) ;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+}
+
+#Venster {
+    width: 50vh;
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+    background: linear-gradient(to bottom left, #33ccff 0%, #ff99cc 100%);
+    padding: 2em;
+    max-height: 90vh;
+    overflow: auto;
+}
+
+.button {
+    font-size: 20px;
+}
+
+
+
+#Stockholm3{
+    width: 300px;
+    border: 10px solid transparent;
+    border-color: #d13a64;
+}
+
+#Mariska1 {
+    width: 300px;
+    border: 8px solid transparent;
+    border-color: #d13a78;
+}
+
+#veld2{
+    width: 250px;
+    border: 5px solid transparent;
+    border-color: #d13a90;
+}
+
+
+
+.inh {
+    text-align: center;
+}
+
+a {
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+}
+
+#Stockholm4 {-webkit-animation-timing-function: linear;}
+#Stockholm4 {animation-timing-function: linear;}
+#Mariska5  {-webkit-animation-timing-function: ease;}
+#Mariska5  {animation-timing-function: ease;}
+#veld6 {-webkit-animation-timing-function: ease-in-out;}
+#veld6 {animation-timing-function: ease-in-out;}
+
+

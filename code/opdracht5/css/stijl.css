@@ -1,0 +1,214 @@
+body {
+  font-family: sans-serif;
+  background-color: dodgerblue;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, .7);
+  background-image: url('../img/transp.png'), url('../img/grid.png');
+  overflow: auto;
+  width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: 0 auto;
+  Als je een element met een beperkte breedte zoals dit div-element met de class wrapper
+  wil centreren dan geef je hem en marge 0 auto: vertikaal niets maar horizontaal auto.
+  Dus de linkermarge is auto en de rechtermarge ook. Het element staat dan in het midden.
+  Contrleer maar door het browservenster van breedte te laten veranderen.
+  */
+}
+header {
+  background-color: rgba(0,0,0,.7);
+  color: #fff;
+  border-top: red;
+  border-width: medium;
+}
+h1 {
+  margin-top: 0;
+  padding-top: 20px;
+  margin-left: 100px;
+}
+.tagline {
+  margin-left: 100px;
+
+}
+.auteur {
+  float: right;
+  text-align: right;
+  padding-top: 20px;
+}
+header a {
+  color: #fff;
+}
+header a:hover {
+  text-decoration: none;
+  color: #aaa;
+}
+main {
+  padding: 20px;
+}
+section {
+  background-color: rgba(30, 200, 240, 0.5);
+  /*width: 360px;*/
+  /* door de breedte in te perken zouden er wel 3 sections in het main-element
+  naast elkaar passen */
+  float: left;
+  /* float: hierdoor gaan de elementen naar links en als er nog ruimte aan de
+  rechterkant over is, vloeit de inhoud, die hiernaar komt er in.
+  Kijk eventurrl wat er gebeurt als je float:left weghaald!! */
+  border-radius: 15px;
+  width: 360px;
+  box-sizing: border-box;
+
+}
+.weinig {
+  width: 260px;
+   /* dit is voor de sections met weinig inhoud: die kunnen smaller.
+   Ze hebben in de amrk-up een class weinig meegekregen.
+   Kijk goed naar de uitwerking en geef ze een breedte, zodat ze met 4 secties naast elkaar kunnen */
+margin: 20px;
+/*border-top-style: solid;
+    border-top-color: blue;
+    border-top-width: 80px;*/
+  }
+.weinig2{
+  width: 360px;
+  margin: 20px;
+}
+
+#agenda p {
+  padding: 70px 30px;
+}
+#agenda h3 {
+  padding: 1em 3em;
+  background-color: blue;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+#schrijfboek h3 {
+  padding: 1em 3em;
+  background-color: blue;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+#schrijfboek p {
+  padding: 49px 20px;
+
+}
+#prioriteit p{
+padding: 40px 40px;
+}
+#prioriteit h3 {
+  padding: 1em 3em;
+  background-color: blue;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+#uitstel p{
+  padding: 40px 30px;
+
+}
+#uitstel h3 {
+  padding: 1em 3em;
+  background-color: blue;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+#centraal h3 {
+  padding: 1em 3em;
+  background-color: blue;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+#centraal p {
+  padding: 63px 10px;
+
+}
+#afwisseling p{
+  padding: 80px 103px;
+
+}
+  #afwisseling h3 {
+    padding: 1em 3em;
+    background-color: blue;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+  #werkplek p{
+    padding: 30px 80px;
+
+  }
+    #werkplek h3 {
+      padding: 1em 3em;
+      background-color: blue;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+
+}
+  #hoofd p{
+    padding: 30px 80px;
+
+  }
+  #hoofd h3 {
+    padding: 1em 3em;
+    background-color: blue;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+  #een p{
+    padding: 30px 30px;
+
+
+}
+#een h3 {
+  padding: 1.5em 3em;
+  background-color: blue;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+#planning p{
+  padding: 69px 50px;
+
+}
+#planning h3 {
+  padding: 1em 3em;
+  background-color: blue;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+h3 {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  line-height: 21px;
+  color: #ffffff
+}
+p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 21px;
+
+}
+
+
+footer {
+  clear: left;
+  /*als dit acterwege blijft vloeit de footer ook nog langs de floatende elementen.
+  Deze 'hack' zorgte er dus voor dat de footer 'onder' de sectins blijft */
+  background-color: rgba(0,0,0,.7);
+  color: white;
+}
+#copy{
+  margin-left: 100px;
+}
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+    margin-left: 100px;
+}
