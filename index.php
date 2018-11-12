@@ -18,6 +18,12 @@ include('header.php');
     case 'mijn-restaurant':
           include('content-mijn-restaurant.php');
           break;
+      case 'mijn-dtp':
+          include('content-mijn-dtp.php');
+          break;
+      case 'mijn-stage':
+          include('content-mijn-stage.php');
+          break;
     case 'contact':
       include('content-contact.php');
       break;
@@ -27,8 +33,8 @@ include('header.php');
     default:
       include('content-404.php');
   }
-
   include('footer.php');
+
 
 
 

@@ -6,7 +6,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-          &copy; Chariesa Roozendaal - 2018
+          &copy; Chariesa Roozendaal - 2018 |<a href="https://github.com/halloo1997" target="_blank"> Github |</a><a href="https://www.linkedin.com/in/chariesa/" target="_blank"> Linkedin</a>
       </div>
     </div>
   </div>
